@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.post-summary {
+    color: #666;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #999;
+}
